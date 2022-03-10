@@ -79,3 +79,13 @@ listaA=[1,2,3,3,5,4,6,6,8,7]
 listaA.sort()
 
 print(listaA)
+
+dicc={"nombre":"ronald","apellido":"jose","edad":37}
+
+dicc["apellido"]="Fernandez"
+
+print(dicc)
+
+dicc={"nombre":"ronal","apellido":"fernandez","edad":37}
+
+print(dicc.keys())
